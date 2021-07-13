@@ -35,6 +35,9 @@ body{
     margin-top:2rem;
     margin-bottom:2rem;
 }
+.btn-warning {
+    background-color: #FFD600 !important;
+}
 
 @media (min-width: 1200px) { 
     
