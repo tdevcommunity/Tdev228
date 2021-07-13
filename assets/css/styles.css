@@ -34,12 +34,16 @@ body{
 .hero .btn{
     margin-top:2rem;
     margin-bottom:2rem;
+    border-radius: 50px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 .btn-warning {
     background-color: #FFD600 !important;
-    color: #FFD600 !important;
 }
-
+.text-red {
+    color: #FF1616 !important;
+}
 @media (min-width: 1200px) { 
     
     .hero{
