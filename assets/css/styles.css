@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'DM Sans', Helvetica neue, sans-serif;
+}
+
+.hero{
+    padding: 2em;
+    background-image:url('https://picsum.photos/200/300?grayscale');
+    background-size: cover;
+}
+
+.hero img{
+    margin-top:2rem;
+    margin-bottom:2rem;
+    height:3rem;
+}
+
+.hero .btn{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
+@media (min-width: 1200px) { 
+    
+    .hero{
+       height: 80vh;
+    }
+
+    .hero img{
+        margin-top:8rem;
+        margin-bottom:2rem;
+        height:10rem;
+    }
+ }
+
+/** ourVision **/
+
+.ourVision{
+    background-color: orange;
+    padding-bottom: 2rem;
+    position:relative;
+}
+
+.ourVision h6{
+    padding:1em;
+}
+
+@media (min-width: 576px) { 
+    .ourVision h6{
+        padding-left:5em;
+        padding-right:5em;
+    }
+ }
+
+ @media (min-width: 768px) { 
+    .ourVision h6{
+        padding-left:15em;
+        padding-right:15em;
+    }
+ }
+
+ @media (min-width: 1200px) { 
+    .ourVision h6{
+        padding-left:35em;
+        padding-right:35em;
+    }
+ }
+
+/** events **/
+
+.events .row{
+    padding-top: 2em;
+}
+
+.section-title{
+    text-transform: uppercase;
+    padding-top:2rem;
+    padding-bottom:1rem;
+}
+
+.lines{
+    margin: auto;
+    width: 70px;
+    position: relative;
+    border-top: 2px solid #000000;
+    margin-bottom: 15px;
+}
+
+.events img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.event-content h1{
+    padding-top: 1em;
+    font-size: x-large;
+}
+
+.event-content p{
+    margin-bottom: 2em;
+}
+
+.event-content h1{
+    text-transform: uppercase;
+}
+/** grow **/
+
+.growTg{
+    padding:5rem;
+    background-image:url('https://picsum.photos/200/300?grayscale');
+    text-transform: uppercase;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+/** footer **/
+
+.footer{
+    padding-top:2rem;
+    padding-bottom:7rem;
+    background-color: #343a40;
+}
+
+.footer h1{
+   
+}
+
+#address{
+    margin-bottom:1rem;
+}
+
+#socials-bx{
+    margin-top:1rem;
+    float:left;
+    width: 100%;
+}
+.social-icn{
+    float:left;
+    background-color: orange;
+    padding:5px 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.social-icn{
+    margin-right:5px;
+    color:#ffffff;
+}
+
+/** utilities **/
+
+.fl-l{
+    float:left;
+}
+
+a{
+    color:green!important;
+}
