@@ -10,7 +10,7 @@ body{
 
 .hero{
     padding: 2em;
-    background-image:url('https://picsum.photos/200/300?grayscale');
+    background-image:url('../img/bg.jpg');
     background-size: cover;
 }
 
