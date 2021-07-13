@@ -84,8 +84,15 @@ body{
     margin-top:2rem;
     margin-bottom:2rem;
     border-radius: 50px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
-
+.btn-warning {
+    background-color: #FFD600 !important;
+}
+.text-red {
+    color: #FF1616 !important;
+}
 @media (min-width: 1200px) { 
     .hero{
        height: 80vh;
@@ -185,7 +192,7 @@ body{
 
 .growTg{
     padding:5rem;
-    background-image:url("../img/peaky.jpg");
+    background-image:url("assets/img/peaky.jpg");
     text-transform: uppercase;
     background-size: cover;
     background-attachment: fixed;
@@ -216,7 +223,7 @@ body{
 }
 .social-icn{
     float:left;
-    background-color: orange;
+    background-color: #FFD600;
     padding:5px 10px;
     border-radius: 5px 5px 5px 5px;
 }
