@@ -37,6 +37,7 @@ body{
 }
 .btn-warning {
     background-color: #FFD600 !important;
+    color: #FFD600 !important;
 }
 
 @media (min-width: 1200px) { 
