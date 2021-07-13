@@ -190,9 +190,9 @@ body{
 }
 /** grow **/
 
-.growTg{
+.growTg{   
     padding:5rem;
-    background-image:url("assets/img/peaky.jpg");
+    background-image:url("../img/peaky.jpg");
     text-transform: uppercase;
     background-size: cover;
     background-attachment: fixed;
