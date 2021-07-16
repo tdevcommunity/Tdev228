@@ -166,7 +166,7 @@ body{
     margin: auto;
     width: 70px;
     position: relative;
-    border-top: 2px solid #FF1616; 
+    border-top: 2px solid red; 
     margin-bottom: 15px;
 }
 
@@ -199,6 +199,7 @@ body{
     background-attachment: fixed;
     font-size: 33px;
     font-weight: bold;
+    color: #FFD600;
 }
 
 
