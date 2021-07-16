@@ -158,7 +158,7 @@ body{
     padding-bottom:0.5rem;
     color: #07890C;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
     
 }
 
@@ -192,7 +192,7 @@ body{
 /** grow **/
 
 .growTg{   
-    padding:5rem 3rem 5rem 3rem;
+    padding:5rem;
     background-image:url("../img/peaky.jpg");
     text-transform: uppercase;
     background-size: cover;
