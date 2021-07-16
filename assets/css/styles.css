@@ -197,6 +197,8 @@ body{
     text-transform: uppercase;
     background-size: cover;
     background-attachment: fixed;
+    font-size: 33px;
+    font-weight: bold;
 }
 
 
