@@ -192,7 +192,7 @@ body{
 /** grow **/
 
 .growTg{   
-    padding:5rem;
+    padding:5rem 3rem 5rem 3rem;
     background-image:url("../img/peaky.jpg");
     text-transform: uppercase;
     background-size: cover;
